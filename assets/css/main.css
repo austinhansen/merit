@@ -58,7 +58,9 @@ h4 {
 p {
     line-height: 28px;
     margin-bottom: 25px;
-    font-size: 16px;
+    font-size: 18px;
+    text-align: left;
+    color: #222;
 }
 
 .centered {
