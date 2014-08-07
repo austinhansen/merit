@@ -183,6 +183,7 @@ i {
   #headerwrap {
     padding-top: 90px;
     padding-left: 10%;
+    min-height: 450px;
   }
   #headerwrap h1 {
     font-size: 40px;
@@ -192,7 +193,7 @@ i {
 @media (max-width: 459px) {
   #headerwrap {
     padding-top: 30px;
-    padding-bottom: 30px;
+    min-height: 250px;
   }
   #headerwrap h1 {
     font-size: 30px;
