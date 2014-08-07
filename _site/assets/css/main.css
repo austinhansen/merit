@@ -17,14 +17,9 @@
     /*-moz-border-radius: 270px;  Disabled for FF1+ */
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .avatar-frame,.avatar-frame img{
-    margin-top: 0;
-    width: 350px;
-    height: 350px;
-    -webkit-border-radius: 270px; /* Saf3+, Chrome */
-    border-radius: 270px; /* Opera 10.5, IE 9 */
-    /*-moz-border-radius: 270px;  Disabled for FF1+ */
+    display: none;
   }
 }
 
@@ -184,20 +179,22 @@ i {
 	letter-spacing: 1px;
 }
 
-@media (max-width: 459px) {
+@media (max-width: 960px) {
   #headerwrap {
     padding-top: 90px;
+    padding-left: 10%;
   }
   #headerwrap h1 {
     font-size: 40px;
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 459px) {
   #headerwrap {
-    padding-top: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   #headerwrap h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
