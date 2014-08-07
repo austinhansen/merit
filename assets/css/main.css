@@ -17,6 +17,17 @@
     /*-moz-border-radius: 270px;  Disabled for FF1+ */
 }
 
+@media (max-width: 1200px) {
+  .avatar-frame,.avatar-frame img{
+    margin-top: 0;
+    width: 350px;
+    height: 350px;
+    -webkit-border-radius: 270px; /* Saf3+, Chrome */
+    border-radius: 270px; /* Opera 10.5, IE 9 */
+    /*-moz-border-radius: 270px;  Disabled for FF1+ */
+  }
+}
+
 body {
   background-color: #f2f2f2;
     font-family: 'Lato', sans-serif;
@@ -171,4 +182,22 @@ i {
 	font-size: 45px;
 	font-weight: 300;
 	letter-spacing: 1px;
+}
+
+@media (max-width: 459px) {
+  #headerwrap {
+    padding-top: 90px;
+  }
+  #headerwrap h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 960px) {
+  #headerwrap {
+    padding-top: 90px;
+  }
+  #headerwrap h1 {
+    font-size: 40px;
+  }
 }
