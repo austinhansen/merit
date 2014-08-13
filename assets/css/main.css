@@ -17,6 +17,33 @@
     /*-moz-border-radius: 270px;  Disabled for FF1+ */
 }
 
+.small-avatar {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 270px; /* Saf3+, Chrome */
+    border-radius: 270px; /* Opera 10.5, IE 9 */
+    /*-moz-border-radius: 270px;  Disabled for FF1+ */
+}
+
+.merit-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.check-mark {
+    height: 100px;
+    width: 100px;
+}
+
+.math-characters {
+    font-size: 36px;
+    text-align: center;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 @media (max-width: 1199px) {
   .avatar-frame,.avatar-frame img{
     display: none;
