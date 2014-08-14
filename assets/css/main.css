@@ -26,12 +26,18 @@
     /*-moz-border-radius: 270px;  Disabled for FF1+ */
 }
 
+.math-equation {
+    margin-bottom: 25px;
+}
+
 .merit-logo {
+    display: inline;
     height: 100px;
     width: 100px;
 }
 
 .check-mark {
+    display: inline;
     height: 100px;
     width: 100px;
 }
